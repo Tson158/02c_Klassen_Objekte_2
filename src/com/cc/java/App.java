@@ -4,21 +4,23 @@ public class App {
     
     public static void main(String[] args) {
 
-        Cat cat1 = new Cat("Grizabella", "white", 29); // Klasse --> Objekt / Instanz
+        Cat cat1 = new Cat("Grizabella", "white", 29, true); // Klasse --> Objekt / Instanz
         
         output("Name: " + cat1.getStringsAttributes("#name"));
         output("Fellfarbe: " + cat1.getStringsAttributes("#color"));
 
         output("Alter: " + cat1.getAge());
 
+
         output("------------------------");
 
-        Cat cat2 = new Cat("Alonzo", "black", 35); // Klasse --> Objekt / Instanz
+
+        Cat cat2 = new Cat("Alonzo", "black", 35, false); // Klasse --> Objekt / Instanz
         // cat2.setName("#?!3$");
         
         output("Name: " + cat2.getStringsAttributes("#name"));
         output("Fellfarbe: " + cat2.getStringsAttributes("#color"));
-        
+
         output("Alter: " + cat2.getAge());
 
 
